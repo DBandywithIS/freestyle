@@ -51,7 +51,7 @@ div {
     background-color: blue;
     border: 5px solid black;
     height: 300px;
-    margin: 5px auto 0 auto;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     
@@ -59,9 +59,14 @@ div {
 .box2-1 {
     background-color: green;
     box-sizing: border-box;
+    height: 290px;
     border: 2px solid black;
     margin: 5px;
     flex-basis: 25%;
+    display: flex;
+}
+p {
+    margin: auto;
 }
 .box2-2 {
     background-color: yellow;
@@ -69,6 +74,7 @@ div {
     border: 2px solid black;
     margin: 5px;
     flex-basis: 75%;
+    display: flex;
 }
 .box3 {
     background-color: blue;
@@ -91,6 +97,7 @@ div {
     border: 2px solid black;
     margin: 5px;
     flex-basis: 25%;
+    display: flex;
 }
 .box4-2 {
     background-color: green;
@@ -98,6 +105,7 @@ div {
     border: 2px solid black;
     margin: 5px;
     flex-basis: 25%;
+    display: flex;
 }
 .box4-3 {
     background-color: green;
@@ -105,6 +113,7 @@ div {
     border: 2px solid black;
     margin: 5px;
     flex-basis: 25%;
+    display: flex;
 }
 .box4-4 {
     background-color: green;
@@ -112,6 +121,7 @@ div {
     border: 2px solid black;
     margin: 5px;
     flex-basis: 25%;
+    display: flex;
 }
 .box5 {
     background-color: blue;
